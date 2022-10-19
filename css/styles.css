@@ -204,6 +204,7 @@ img {
 
   nav{
     background-color: #ddd;
+    /* nav is aligned to the right side */
     text-align: right;
     padding: 35px 0px;
     align-self: center;
