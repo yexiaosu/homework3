@@ -187,6 +187,10 @@ img {
   .container{
     /*Your code here */
     /* See documentation for desktop view */
+    display: grid;
+    grid-template-columns: 50px auto 500px auto 50px;
+    grid-template-rows: 70px 400px 400px 400px 400px 400px 100px;
+    grid-row-gap: 30px;
   }
 
   nav{
@@ -199,11 +203,13 @@ img {
    .about, .clients, .method-image, .contact-image {
     /*Your code here */
     /* See documentation for desktop view */
+    grid-column: 3 / span 2;
   }
 
   .method, .contact, .about-image, .clients-image {
     /*Your code here */
     /* See documentation for desktop view */
+    grid-column: 2 / span 2;
   }
 }  /*End the media query*/
 
