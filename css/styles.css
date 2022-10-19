@@ -92,7 +92,7 @@ nav{
   text-align: left;
   /*Your code here*/
   /*Span the top row*/
-  grid-column: 1 / span 3;
+  grid-column: 1 / -1;
 }
 
 header{
@@ -108,7 +108,7 @@ header{
   background-color: #ddd;
   background-image: url("../images/header.jpg");
   min-height: 400px;
-  grid-column: 1 / span 3;
+  grid-column: 1 / -1;
 }
 
 header p{
