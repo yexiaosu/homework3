@@ -137,6 +137,7 @@ img {
 .about, .method, .clients, .contact{
   /*Your code here */
   /* See documentation for mobile view */
+  /* placed in 2nd column */
   grid-column: 2 / span 1;
 }
 
