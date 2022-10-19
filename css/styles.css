@@ -185,7 +185,9 @@ img {
   /*Your code here:*/
   /*Align the content in the center */
   text-align: center;
+  /* Have a max-height of 25% of the viewport height */
   max-height: 25vh;
+  /* Displays any overflow content via a scrollbar */
   overflow: scroll;
 }
 
