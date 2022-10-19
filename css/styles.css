@@ -104,11 +104,13 @@ header{
   color: white;
   height: 400px;                /* Parallax effect */
   /* Your code here */
-  /* Set background-image to header.jpg in the images folder */
-  /* Span one row */
+  /* fallback color */
   background-color: #ddd;
+  /* Set background-image to header.jpg in the images folder */
   background-image: url("../images/header.jpg");
+  /* minimum height */
   min-height: 400px;
+  /* Span one row */
   grid-column: 1 / -1;
 }
 
