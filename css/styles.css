@@ -89,6 +89,7 @@ footer{
 nav{
   background-color: #ddd;
   padding: 20px 0;
+  /* Adjust the navigation so the text is aligned on the left side */
   text-align: left;
   /*Your code here*/
   /*Span the top row*/
