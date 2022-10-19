@@ -144,8 +144,11 @@ img {
 .about-image, .method-image, .clients-image, .contact-image{
    /*Your code here */
    /* See documentation for mobile view */
+   /* Span all three columns*/
    grid-column: 1 / span 3;
+   /* Have a maximum height of 500px */
    max-height: 500px;
+   /* Hide any part of the image that exceeds the div */
    overflow: hidden;
 }
 
