@@ -45,9 +45,9 @@ nav a:hover{
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
-  position: relative;
   /*Your code here - position relative to the parent */
   /*Your code here - place 500px left and 40px higher */
+  position: absolute;
   left: -500px;
   top: -40px;
 }
