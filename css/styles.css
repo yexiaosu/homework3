@@ -213,12 +213,14 @@ img {
    .about, .clients, .method-image, .contact-image {
     /*Your code here */
     /* See documentation for desktop view */
+    /* Begin in the third column and span two columns */
     grid-column: 3 / span 2;
   }
 
   .method, .contact, .about-image, .clients-image {
     /*Your code here */
     /* See documentation for desktop view */
+    /* Begin in the second column and span two columns. */
     grid-column: 2 / span 2;
   }
 }  /*End the media query*/
