@@ -199,7 +199,6 @@ img {
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 70px 400px 400px 400px 400px 400px 100px;
-    grid-row-gap: 30px;
   }
 
   nav{
@@ -222,6 +221,17 @@ img {
     /* See documentation for desktop view */
     /* Begin in the second column and span two columns. */
     grid-column: 2 / span 2;
+  }
+
+  .skip a:focus{
+    background: white;
+    top: 20px;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
   }
 }  /*End the media query*/
 
